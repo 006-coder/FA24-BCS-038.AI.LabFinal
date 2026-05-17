@@ -1,0 +1,4 @@
+security_settings:
+  risk_threshold: 0.70
+  llm_model: "llama-3.1-8b-instant"
+  pii_weight: 0.15

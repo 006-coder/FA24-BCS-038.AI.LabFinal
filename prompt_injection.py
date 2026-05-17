@@ -41,7 +41,9 @@ def detect_promptInjection(text):
         "remove": 40,
         "erase": 50,
         "drop table": 80,
-        "files": 20
+        "files": 20,
+        "break": 30,
+        "system": 40
     }
     lowercase = text.lower()
     for word, score in injectionScoring.items():
